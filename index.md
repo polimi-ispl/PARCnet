@@ -1,6 +1,6 @@
 Real-time audio communications over IP have become an essential part of our daily lives. Packet-switched networks, however, are inherently prone to jitter and data losses, thus creating a strong need for effective packet loss concealment (PLC) techniques. Though solutions based on deep learning have made significant progress in that direction as far as speech is concerned, extending the use of such methods to applications of Networked Music Performance (NMP) presents significant challenges, including high fidelity requirements, higher sampling rates, and stringent temporal constraints associated to the simultaneous interaction between remote musicians. This page includes several audio examples of PLC obtained using __PARCnet__, a hybrid PLC method for NMP applications presented in 
 
-> A. I. Mezza, M. Amerena, and A. Sarti, "Hybrid Packet Loss Concealment for Real-Time Networked Music Applications," *unpublished*, 2023.
+> A. I. Mezza, M. Amerena, A. Bernardini, and A. Sarti, "Hybrid Packet Loss Concealment for Real-Time Networked Music Applications," *unpublished*, 2023.
 
 ## Audio Examples
 
