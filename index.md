@@ -27,3 +27,15 @@ Real-time audio communications over IP have become an essential part of our dail
 | Reference | Zero filling | Verma et al. | PLAAE | TF-GAN | LPCnet | AR(50) |  FRN  | PARCnet (Ours) |
 | :-------: | :----------: | :----------: | :---: | :----: | :----: | :----: | :---: | :------------: |
 | <audio controls preload="auto" style="width: 100px"><source src="audio/Reference/135.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="auto" style="width: 100px"><source src="audio/zero_filling/135.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="auto" style="width: 100px"><source src="audio/Verma/135.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="auto" style="width: 100px"><source src="audio/PLAAE/135.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="auto" style="width: 100px"><source src="audio/TFGAN/135.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>| <audio controls preload="auto" style="width: 100px"><source src="audio/LPCnet/135.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>| <audio controls preload="auto" style="width: 100px"><source src="audio/AR_50/135.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>| <audio controls preload="auto" style="width: 100px"><source src="audio/FRN/135.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>| <audio controls preload="auto" style="width: 100px"><source src="audio/PARCnet/135.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>|
+
+## References
+**Verma et al.:** P. Verma, A. I. Mezza, C. Chafe, and C. Rottondi, “A deep learning approach for low-latency packet loss concealment of audio signals in
+networked music performance applications,” in _Proc. Conf. of Open Innovations Association_, 2020, pp. 268–275.
+
+**PLAAE:** S. Pascual, J. Serrà, and J. Pons, “Adversarial auto-encoding for packet loss concealment,” in _2021 IEEE Workshop Appl. Signal Process. Audio Acoust., 2021_, pp. 71–75.
+
+**TF-GAN:** J. Wang, Y. Guan, C. Zheng, R. Peng, and X. Li, “A temporal-spectral generative adversarial network based end-to-end packet loss concealment for wideband speech transmission,” _J. Acoust. Soc. Am._, vol. 150, no. 4, pp. 2577–2588, 2021.
+
+**LPCnet:** J.-M. Valin, A. Mustafa, C. Montgomery, T. B. Terriberry, M. Klingbeil, P. Smaragdis, and A. Krishnaswamy, “Real-Time Packet Loss Concealment With Mixed Generative and Predictive Model,” in _Proc. Interspeech_, 2022, pp. 570–574.
+
+**FRN:** V.-A. Nguyen, A. H. T. Nguyen, and A. W. H. Khong, “Improving performance of real-time full-band blind packet-loss concealment with predictive network,” in _Proc. IEEE Int. Conf. Acoust. Speech Signal Process_., 2023, pp. 1–5.
