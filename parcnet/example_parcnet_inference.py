@@ -48,6 +48,7 @@ def main():
         num_valid_nn_packets=num_valid_nn_packets,
         model_checkpoint=model_checkpoint,
         xfade_len_in=xfade_len_in,
+        device='cpu'
     )
 
     # ----------- Load the reference audio file ----------- #

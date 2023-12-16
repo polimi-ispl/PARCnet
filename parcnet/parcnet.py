@@ -17,6 +17,7 @@ class PARCnet:
                  num_valid_nn_packets: int,
                  model_checkpoint: str,
                  xfade_len_in: int,
+                 device: str = 'cpu',
                  ):
 
         self.packet_dim = packet_dim
@@ -40,8 +41,7 @@ class PARCnet:
         self.ar_model = ARModel(ar_order, ar_diagonal_load)
 
         # Load the pretrained neural network
-        self.neural_net = HybridModel.load_from_checkpoint(checkpoint_path=model_checkpoint, channels=1, lite=True)
-
+        self.neural_net = HybridModel.load_from_checkpoint(model_checkpoint, channels=1, lite=True).to(device)
 
     def __call__(self, input_signal: np.ndarray, trace: np.ndarray, **kwargs) -> np.ndarray:
         self.neural_net.eval()
