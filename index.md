@@ -4,6 +4,10 @@ This page features several audio examples of PLC obtained using __PARCnet__, whi
 
 > A. I. Mezza, M. Amerena, A. Bernardini and A. Sarti, "Hybrid Packet Loss Concealment for Real-Time Networked Music Applications," in *IEEE Open Journal of Signal Processing*, doi: [10.1109/OJSP.2023.3343318](https://doi.org/10.1109/OJSP.2023.3343318).
 
+## Source code
+
+Source code and pretrained models are available in the [PARCnet repository](https://github.com/polimi-ispl/PARCnet).
+
 ## Audio Examples
 
 | Reference (Clean) | Zero filling | Verma et al. | PLAAE | TF-GAN | LPCnet |  FRN  | AR(128) | PARCnet (Ours) |
