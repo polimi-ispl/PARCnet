@@ -6,7 +6,7 @@ This page features several audio examples of PLC obtained using __PARCnet__, whi
 
 ## Source code
 
-Source code and pretrained models are available in the [PARCnet repository](https://github.com/polimi-ispl/PARCnet).
+Visit the official [GitHub repository](https://github.com/polimi-ispl/PARCnet) to access the source code and pre-trained PARCnet models.
 
 ## Audio Examples
 
