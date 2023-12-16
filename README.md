@@ -6,7 +6,7 @@ This repository will contain the accompanying code for
 ## Model Inference ✔️
 In this repository, we provide all the necessary code to run a pretrained PARCnet model. 
 
-To test PARCnet using our piano example, simply run `example_parcnet_inference.py`; this will create two audio files in the `predictions` folder.
+To test PARCnet using our piano example, simply run `example_parcnet_inference.py`. This will create two audio files in the `predictions` folder.
 
 To test PARCnet using your own audio files, 
 - Place your files in `test_data/audio`
