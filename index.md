@@ -2,7 +2,7 @@ __Abstract:__ Real-time audio communications over IP have become essential to ou
 
 This page features several audio examples of PLC obtained using __PARCnet__, which was introduced in
 
-> A. I. Mezza, M. Amerena, A. Bernardini and A. Sarti, "Hybrid Packet Loss Concealment for Real-Time Networked Music Applications," in *IEEE Open Journal of Signal Processing*, doi: [10.1109/OJSP.2023.3343318](https://doi.org/10.1109/OJSP.2023.3343318).
+> A. I. Mezza, M. Amerena, A. Bernardini, and A. Sarti, "Hybrid Packet Loss Concealment for Real-Time Networked Music Applications," in *IEEE Open Journal of Signal Processing*, doi: [10.1109/OJSP.2023.3343318](https://doi.org/10.1109/OJSP.2023.3343318).
 
 ## Source code
 
