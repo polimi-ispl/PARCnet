@@ -52,12 +52,10 @@ def main():
 
     # ----------- Load the reference audio file ----------- #
 
-    # load the clean signal
     y_ref, sr = librosa.load(audio_test_path, sr=sr, mono=True)
 
     # ----------- Load packet loss trace ----------- #
 
-    # load the clean signal
     trace_path = trace_folder.joinpath(audio_test_path.stem).with_suffix('.npy')
     trace = np.load(trace_path)
 
