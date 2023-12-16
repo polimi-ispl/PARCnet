@@ -26,12 +26,12 @@ The current version of PARCnet was trained with
 
 Nevertheless, the code will not break if a different sampling rate or packet size is chosen. Whereas other inference scenarios have not been tested, it seems that PARCnet is somehow still able to work at 16 kHz with packets of 10 ms and, to some extent, 20 ms.
 
-## Packet loss traces 📦
+## Packet Traces 📦
 To generalize the inference mechanism, we use *traces*. A trace is a `np.ndarray` containing a binary sequence of 1s and 0s. A `1` indicate a packet loss, whereas a `0` indicate that the corresponding packet was correctly received (valid packet). We provide a script to create *default* traces, i.e., traces with evenly-spaced losses; see `parcnet/create_default_trace.py`.
 
 Traces depend on the chosen sampling frequency and packet size.
 
 If you wish to modify `global` or `path` parameters in `config.yaml`, please run `create_default_trace.py` after the changes have been made.
 
-## Audio examples 🎧
+## Audio Examples 🎧
 Audio examples are available at our [GitHub page](https://polimi-ispl.github.io/PARCnet/).
