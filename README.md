@@ -9,10 +9,12 @@ In this repository, we provide all the necessary code to run a pretrained PARCne
 To test PARCnet using our piano example, simply run `example_parcnet_inference.py`; this will create two audio files in the `predictions` folder.
 
 To test PARCnet using your own audio files, 
-- Upload your wav files in `test_data/audio`
+- Upload your files in `test_data/audio`
 - Update `audio_test_path` in the `config.yaml` file
 - Run `create_default_trace.py` to create a trace in `test_data/traces/default`
 - Run `example_parcnet_inference.py`
+
+Make sure that test files are in WAV format.
 
 ## Model Training :warning:
 
