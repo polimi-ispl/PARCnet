@@ -9,12 +9,12 @@ In this repository, we provide all the necessary code to run a pretrained PARCne
 To test PARCnet using our piano example, simply run `example_parcnet_inference.py`; this will create two audio files in the `predictions` folder.
 
 To test PARCnet using your own audio files, 
-- Upload your files in `test_data/audio`
+- Place your files in `test_data/audio`
 - Update `audio_test_path` in the `config.yaml` file
 - Run `create_default_trace.py` to create a trace in `test_data/traces/default`
 - Run `example_parcnet_inference.py`
 
-Make sure that test files are in WAV format.
+Make sure all test files are in __WAV format__.
 
 ## Model Training :warning:
 
@@ -36,4 +36,4 @@ Traces depend on the chosen sampling frequency and packet size.
 If you wish to modify `global` or `path` parameters in `config.yaml`, please run `create_default_trace.py` after the changes have been made.
 
 ## Audio Examples 🎧
-Audio examples are available at our [GitHub page](https://polimi-ispl.github.io/PARCnet/).
+Audio examples are available at our [GitHub demo page](https://polimi-ispl.github.io/PARCnet/).
