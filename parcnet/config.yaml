@@ -1,0 +1,33 @@
+global:
+  sr:             32000
+  packet_dim:     320
+  extra_pred_dim: 80
+
+dataset:
+  n_songs:          1000
+  losses_per_song:  100
+  past_packets:     50
+  input_format:     'wav'
+
+path:
+  source_dataset_dir:     'path/to/dataset/maestro-v3.0.0'
+  processed_dataset_dir:  'processed_audio/audio_segments'
+  ar_packet_dir:          'processed_audio/AR_packets'
+  ar_past_dir:            'processed_audio/AR_past'
+  nn_checkpoint_path:     'pretrained_models/checkpoint-v2.ckpt'
+  audio_test_path:        'data/audio/94.wav'
+  trace_dir:              'data/traces/default/'
+  prediction_dir:         'predictions/'
+
+
+AR:
+  ar_order:             128
+  diagonal_load:        0.001
+  num_valid_ar_packets: 10
+
+
+neural_net:
+  num_valid_nn_packets: 7
+  gradient_clip:        2.0
+  max_epochs:           500
+  xfade_len_in:         16
