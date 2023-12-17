@@ -14,7 +14,7 @@ path:
   processed_dataset_dir:  'processed_audio/audio_segments'
   ar_packet_dir:          'processed_audio/AR_packets'
   ar_past_dir:            'processed_audio/AR_past'
-  nn_checkpoint_path:     'pretrained_models/checkpoint-v2.ckpt'
+  nn_checkpoint_path:     'pretrained_models/checkpoint-000.ckpt'
   audio_test_path:        'test_data/audio/94.wav'
   trace_dir:              'test_data/traces/default/'
   prediction_dir:         'predictions/'
