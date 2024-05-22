@@ -3,8 +3,24 @@
 This repository will contain the accompanying code for 
 > A. I. Mezza, M. Amerena, A. Bernardini, and A. Sarti, "Hybrid Packet Loss Concealment for Real-Time Networked Music Applications," in *IEEE Open Journal of Signal Processing*, 2023, doi: [10.1109/OJSP.2023.3343318](https://doi.org/10.1109/OJSP.2023.3343318).
 
+## 🆕 Update (May 20, 2024) 
+A new, updated version of PARCnet named **PARCnet-IS²** has been released! 
+
+PARCnet-IS² was trained on 44.1 kHz single-instrument audio clips, works with packets of size 512 samples (11.6 ms), and features an improved inference mechanism that fixes cross-fading in case of a burst packet loss. 
+
+PARCnet-IS² is the baseline model for the [IEEE-IS² 2024 Music Packet Loss Concealment Challenge](https://internetofsounds.net/ieee-is%C2%B2-2024-music-packet-loss-concealment-challenge/), which will be part of the **2nd IEEE International Workshop on Networked Immersive Audio** ([IEEE IWNIA 2024](https://internetofsounds.net/2nd-international-workshop-on-networked-immersive-audio/)), a satellite event of the **5th IEEE International Symposium on the Internet of Sounds** ([IEEE IS² 2024](https://internetofsounds.net/is2_2024/)).
+ 
+
+Model weights, as well as tranining and inference code for PARCnet-IS² are available at the [official GitHub repo](https://github.com/polimi-ispl/2024-music-plc-challenge/blob/main/README.md)! 
+
 ## Model Inference ✔️
 In this repository, we provide all the necessary code to run a pretrained PARCnet model. 
+
+----------------------
+
+⚠️ **Note:** The inference code in this repo contains a known bug related to the cross-fade between consecutive missing packets. While we work on solving the issue, please check out [PARCnet-IS²](https://github.com/polimi-ispl/2024-music-plc-challenge/blob/main/README.md), which correctly deals with burst losses.
+
+----------------------
 
 To test PARCnet using our piano example, simply run `example_parcnet_inference.py`. This will create two audio files in the `predictions` folder.
 
@@ -18,7 +34,11 @@ Make sure all test files are in __WAV format__.
 
 ## Model Training :warning:
 
-__The scripts for training a model from scratch will be made available soon.__
+----------------------
+
+🔍 **Note:** Training code for **PARCnet-IS²** is now available. To train the original PARCnet model from scratch, please refer to the updated implementation available [here](https://github.com/polimi-ispl/2024-music-plc-challenge/blob/main/README.md).
+
+----------------------
 
 The PARCnet's neural branch provided in this repository was trained on 1000 tracks taken from the [MAESTRO Dataset V3.0.0](https://magenta.tensorflow.org/datasets/maestro), a large corpus of virtuoso piano recordings. The training hyperparameters are reported in `parcnet/config.yaml`. For further details, please refer to our [paper](https://doi.org/10.1109/OJSP.2023.3343318).
 
