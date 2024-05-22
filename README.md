@@ -11,14 +11,14 @@ PARCnet-IS² was trained on 44.1 kHz single-instrument audio clips, works with p
 PARCnet-IS² is the baseline model for the [IEEE-IS² 2024 Music Packet Loss Concealment Challenge](https://internetofsounds.net/ieee-is%C2%B2-2024-music-packet-loss-concealment-challenge/), which will be part of the **2nd IEEE International Workshop on Networked Immersive Audio** ([IEEE IWNIA 2024](https://internetofsounds.net/2nd-international-workshop-on-networked-immersive-audio/)), a satellite event of the **5th IEEE International Symposium on the Internet of Sounds** ([IEEE IS² 2024](https://internetofsounds.net/is2_2024/)).
  
 
-Model weights, as well as tranining and inference code for PARCnet-IS² are available at the [official GitHub repo](https://github.com/polimi-ispl/2024-music-plc-challenge/blob/main/README.md)! 
+Model weights, as well as tranining and inference code for PARCnet-IS² are available at the [official GitHub repo](https://github.com/polimi-ispl/2024-music-plc-challenge)! 
 
 ## Model Inference ✔️
 In this repository, we provide all the necessary code to run a pretrained PARCnet model. 
 
 ----------------------
 
-⚠️ **Note:** The inference code in this repo contains a known bug related to the cross-fade between consecutive missing packets. While we work on solving the issue, please check out [PARCnet-IS²](https://github.com/polimi-ispl/2024-music-plc-challenge/blob/main/README.md), which correctly deals with burst losses.
+⚠️ **Note:** The inference code in this repo contains a known bug related to the cross-fade between consecutive missing packets. While we work on solving the issue, please check out [PARCnet-IS²](https://github.com/polimi-ispl/2024-music-plc-challenge), which correctly deals with burst losses.
 
 ----------------------
 
@@ -36,7 +36,7 @@ Make sure all test files are in __WAV format__.
 
 ----------------------
 
-🔍 **Note:** Training code for **PARCnet-IS²** is now available. To train the original PARCnet model from scratch, please refer to the updated implementation available [here](https://github.com/polimi-ispl/2024-music-plc-challenge/blob/main/README.md).
+🔍 **Note:** Training code for **PARCnet-IS²** is now available. To train the original PARCnet model from scratch, please refer to the updated implementation available [here](https://github.com/polimi-ispl/2024-music-plc-challenge).
 
 ----------------------
 
